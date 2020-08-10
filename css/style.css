@@ -25,13 +25,12 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     height: 100vh;
-    background-color: #F7F7FE;
     color: var(--grayishBlue);
     text-align: center;
     line-height: 1.867;
     background: no-repeat top right url('../images/bg-top.svg'),
     left bottom no-repeat  url('../images/bg-bottom.svg') ;
-    
+    background-color: #F7F7FE;  
 }
 
 
@@ -162,4 +161,75 @@ button:hover {
 .professional button {
     background: white;
     color: #6D72DE;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+
+body {
+    height: auto;
+    color: var(--grayishBlue);
+    background: no-repeat  url('../images/bg-top.svg');
+    background-position: top 0 right -210px;
+    background-color: #F7F7FE;  
+}
+
+
+header {
+    margin-top: 6.4em;
+}
+
+main {
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 7.1rem;
+}
+
+section {
+    height: auto;
+    margin-bottom: 3.25rem;
+    width: 87vw;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 31px 138px 24px 138px;
+}
+
+li {
+    width: 26.9rem;
+}
+
+section button {
+    width: 26.9rem;
+    font-size: 1.3rem ;
+    letter-spacing: 1.39px;
+    margin: 2.9rem 0;
+}
+
+
+.professional button:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.basic {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.master {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.professional {
+    height: auto;  
+}
+
+.professional h2 {
+    margin: auto;
+    margin-top: 3.15rem;
+}
+
+
 }
