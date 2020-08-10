@@ -1,0 +1,24 @@
+:root {
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 0;
+    box-sizing: border-box;
+} 
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
