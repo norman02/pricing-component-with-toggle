@@ -64,11 +64,14 @@ h1 {
 
 main {
     display: inline-flex;
+    height: 50rem;
+    align-items: center;
 }
 
 section {
     background-color: white;
     box-shadow: 0 20px 40px 0 #d4d2f478;
+    height: 45.3rem;
 }
 
 h2 {
@@ -103,6 +106,35 @@ button {
     color: white;
     margin: 3.2rem 0;
 }
+
+.basic {
+    border-radius: 10px 0 0 10px;
+}
+
+.master {
+    border-radius: 0 10px 10px 0;
+}
+
+.professional {
+    background: linear-gradient(135deg, #A2A7F0,  #696EDD );;
+    color: white;
+    height: 50rem;  
+    border-radius: 10px;
+}
+
+.professional h2 {
+    margin-top: 5.45rem;
+}
+
+.professional .price {
+    color: white;
+}
+
+.professional button {
+    background: white;
+    color: #6D72DE;
+}
+
 
 
 footer {
