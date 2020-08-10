@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+    font-size: 10px;
+    --gradient: linear-gradient( to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    --veryLightGrayishBlue: hsl(240, 78%, 98%);
+    --lightGrayishBlue: hsl(234, 14%, 74%);
+    --grayishBlue: hsl(233, 13%, 49%);
+    --darkGrayishBlue: hsl(232, 13%, 33%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #F7F7FE;
+    color: var(--grayishBlue);
+    text-align: center;
+    line-height: 1.867;
+}
+
+header {
+    margin-top: 7.1rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+.switch-container {
+    display: inline-flex;
+    margin: 40px auto 64.5px auto;
+}
+.switch-container p {
+    opacity: 50%;
+}
+
+.switch {
+    width: 5.6rem;
+    height: 3.2rem;
+    border-radius: 16px;
+    background: var(--gradient);
+    margin: 0 24px;
+}
+
+.switch-top {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 100%;
+    background-color: white;
+    margin: 4px 4px 4px 28px;
+}
+
+main {
+    display: inline-flex;
+}
+
+section {
+    background-color: white;
+    box-shadow: 0 20px 40px 0 #d4d2f478;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 31px 149.5px 24px 149.5px;
+}
+
+.price {
+    font-size: 7.2rem;
+    left: -2.16px;
+    line-height: 0.986;
+    color: var(--grayishBlue);
+    padding-bottom: 3.2rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    border-bottom: 1px solid #6e728e27;
+    width: 28.8rem;
+    margin: 1.3rem auto;
+}
+
+button {
+    width: 28.8rem;
+    height: 4.4rem;
+    border-radius: 6px;
+    background: var(--gradient);
+    color: white;
+    margin: 3.2rem 0;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 4rem 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
