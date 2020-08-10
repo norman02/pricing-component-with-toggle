@@ -24,11 +24,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
+    height: 100vh;
     background-color: #F7F7FE;
     color: var(--grayishBlue);
     text-align: center;
     line-height: 1.867;
+    background: no-repeat top right url('../images/bg-top.svg'),
+    left bottom no-repeat  url('../images/bg-bottom.svg') ;
+    
 }
+
 
 header {
     margin-top: 7.1rem;
@@ -158,18 +163,3 @@ button:hover {
     background: white;
     color: #6D72DE;
 }
-
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 4rem 0;
-}
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
