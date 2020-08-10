@@ -112,6 +112,12 @@ section button {
     margin: 3.2rem 0;
 }
 
+button,
+button:active {
+    border: none;
+    outline: none;
+}
+
 button:hover {
     cursor: pointer;
     background: white;
